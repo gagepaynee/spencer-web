@@ -4,6 +4,7 @@ import ChartistGraph from "react-chartist";
 // @material-ui/core
 import { makeStyles } from "@material-ui/core/styles";
 import Icon from "@material-ui/core/Icon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // @material-ui/icons
 import Store from "@material-ui/icons/Store";
 import Warning from "@material-ui/icons/Warning";
@@ -50,9 +51,9 @@ export default function Dashboard() {
           <Card>
             <CardHeader color="warning" stats icon>
               <CardIcon color="warning">
-                <Icon>add_circle</Icon>
+                <FontAwesomeIcon icon={'seedling'}></FontAwesomeIcon>
               </CardIcon>
-              <p className={classes.cardCategory}>Used Space</p>
+              <p className={classes.cardCategory}>Number of Plants</p>
               <h3 className={classes.cardTitle}>
                 49/50 <small>GB</small>
               </h3>

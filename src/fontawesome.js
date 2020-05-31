@@ -1,9 +1,15 @@
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
 
+import { faAffiliateTheme } from '@fortawesome/free-brands-svg-icons'
+
 // import your icons
-import { faSeedling } from '@fortawesome/free-solid-svg-icons';
+import { faSeedling, faLayerGroup, faAllergies, faBraille } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
-  faSeedling
+  faSeedling,
+  faLayerGroup,
+  faAllergies,
+  faBraille
+
 );
